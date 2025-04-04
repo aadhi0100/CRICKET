@@ -4,10 +4,6 @@ import random
 import time
 import json
 import os
-
-
-
-
 # Set up Gemini API Key
 API_KEY = "AIzaSyDeo_FSywoTQhoazTFyd-CUslFBuhg8lmM"  # Replace with env var for safety
 genai.configure(api_key=API_KEY)
